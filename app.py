@@ -28,8 +28,8 @@ if 'classification_results' not in st.session_state:
     st.session_state.classification_results = None
 
 # API Keys
-MAPBOX_TOKEN = "sk.eyJ1IjoibmlyYWozMSIsImEiOiJjbTJvaTBmNTcwZWI0Mm1zYzRiMnd0c3YyIn0.RjNo09WykTMP_sgb0Uqoeg"
-GOOGLE_STREET_VIEW_API_KEY = 'AIzaSyBwvGlwVziq5rZbdZPsoxUovmGwOmJNeWI'
+MAPBOX_TOKEN = "ENTER-YOUR-MAPBO-API"
+GOOGLE_STREET_VIEW_API_KEY = 'ENTER-YOUR-GSV-API'
 
 # Load YOLO models
 @st.cache_resource
